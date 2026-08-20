@@ -491,6 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dc551367c89ced47a8a1d3b3c285097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Change
+  Pollorigido: {fileID: 1151579445}
 --- !u!68 &1151579449
 EdgeCollider2D:
   m_ObjectHideFlags: 0
