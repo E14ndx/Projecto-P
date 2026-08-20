@@ -368,8 +368,8 @@ GameObject:
   - component: {fileID: 1151579447}
   - component: {fileID: 1151579446}
   - component: {fileID: 1151579445}
-  - component: {fileID: 1151579448}
   - component: {fileID: 1151579449}
+  - component: {fileID: 1151579448}
   m_Layer: 0
   m_Name: Pollo
   m_TagString: Untagged
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5dc551367c89ced47a8a1d3b3c285097, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Change
+  m_EditorClassIdentifier: '::'
 --- !u!68 &1151579449
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -528,14 +528,14 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.60534537, y: 0.4890116}
-  - {x: 0.23174584, y: 0.28067806}
-  - {x: -0.5549069, y: 0.4978726}
-  - {x: -0.3413835, y: -0.4612454}
-  - {x: 0.19485691, y: -0.55870473}
-  - {x: 0.4476427, y: -0.46159256}
-  - {x: 0.32709712, y: -0.2629494}
-  - {x: 0.6671961, y: 0.5834799}
+  - {x: 0.63036996, y: 0.5264041}
+  - {x: 0.18008795, y: 0.312378}
+  - {x: -0.4856881, y: 0.43681383}
+  - {x: -0.33518565, y: -0.4668741}
+  - {x: 0.09683049, y: -0.5778597}
+  - {x: 0.43651193, y: -0.45281112}
+  - {x: 0.34971094, y: -0.21692954}
+  - {x: 0.62303996, y: 0.51942277}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
