@@ -3,7 +3,7 @@ using UnityEngine;
 public class Vrooom : MonoBehaviour
 {
     //Primero creamos una variable que alterara la posicion del objeti
-    public float Movimiento = 5;
+    public float Movimiento = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
