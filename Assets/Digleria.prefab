@@ -32,6 +32,7 @@ Transform:
   m_Children:
   - {fileID: 3012325274435126119}
   - {fileID: 7542580741151533553}
+  - {fileID: 4932625401132334549}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1448164567748830872
@@ -47,6 +48,99 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   Movimiento: 5
+  MUERTE: -20
+--- !u!1 &2255711003413808111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4932625401132334549}
+  - component: {fileID: 503372211637217046}
+  - component: {fileID: 8985083410145496234}
+  m_Layer: 0
+  m_Name: Medio
+  m_TagString: Ki
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4932625401132334549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2255711003413808111}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2301982308174712407}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &503372211637217046
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2255711003413808111}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.8122497, y: 0.38175726}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.12276995, y: 4.200264}
+  m_EdgeRadius: 0
+--- !u!114 &8985083410145496234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2255711003413808111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f448fc5e7959a3468f91e51f9474396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  Ki: {fileID: 0}
 --- !u!1 &7008626082758152256
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,6 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3012325274435126119}
   - component: {fileID: 8556451811834332497}
+  - component: {fileID: 509119412290028226}
   m_Layer: 0
   m_Name: Arriba
   m_TagString: Untagged
@@ -139,6 +234,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!68 &509119412290028226
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008626082758152256}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.0644557, y: -4.3184996}
+  - {x: 0.3456111, y: -4.387661}
+  - {x: 0.12188204, y: -2.151435}
+  - {x: -0.43875894, y: -1.0457621}
+  - {x: -0.55619407, y: 4.118946}
+  - {x: -0.6133235, y: 4.329174}
+  - {x: -0.81474304, y: 4.4216156}
+  - {x: -1.0421661, y: 4.2927356}
+  - {x: -1.1122792, y: 3.993422}
+  - {x: -1.1334093, y: -1.0892925}
+  - {x: -1.5691361, y: -1.9395924}
+  - {x: -2.0378132, y: -4.3014116}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &8702746239150375388
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,6 +297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7542580741151533553}
   - component: {fileID: 930703835197097045}
+  - component: {fileID: 9133812203772960422}
   m_Layer: 0
   m_Name: Abajo
   m_TagString: Untagged
@@ -231,3 +380,56 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!68 &9133812203772960422
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702746239150375388}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.2610126, y: -4.333713}
+  - {x: 0.39595318, y: -4.3789024}
+  - {x: 0.10115266, y: -2.0685148}
+  - {x: -0.41733325, y: -1.0194602}
+  - {x: -0.55264115, y: 4.2044554}
+  - {x: -0.66533947, y: 4.3583937}
+  - {x: -0.8695254, y: 4.4081497}
+  - {x: -1.0390952, y: 4.3165264}
+  - {x: -1.094587, y: 4.098855}
+  - {x: -1.1360381, y: -1.0263877}
+  - {x: -1.5559777, y: -1.8972759}
+  - {x: -1.9872526, y: -4.3171186}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
