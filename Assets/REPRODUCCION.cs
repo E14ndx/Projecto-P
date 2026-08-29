@@ -7,7 +7,7 @@ public class REPRODUCCION : MonoBehaviour
     public GameObject Diglett_ria;
     public float Tiempodeegg = 2;
     private float tiemporizador = 0;
-    public float seteescapa = 5;
+    public float seteescapa = 4.5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

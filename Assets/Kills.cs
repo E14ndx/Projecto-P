@@ -9,9 +9,9 @@ public class Kills : MonoBehaviour
     {
         Killss = 0;
     }
-    public void suma()
+    public void suma(int puntos)
     {
-        Killss += 1;
+        Killss += puntos;
         Puntaje.text = Killss.ToString();
     }
 }

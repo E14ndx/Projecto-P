@@ -16,6 +16,9 @@ public class Malcom : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Ki.suma();
+        if (collision.gameObject.layer == 3)
+        {
+            Ki.suma(5);   
+        }
     }
 }
