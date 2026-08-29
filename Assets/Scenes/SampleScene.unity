@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6dfb036c188ef146959e0b7792d9877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  Killss: 2
+  Killss: 0
   Puntaje: {fileID: 1490998571}
 --- !u!4 &1208426061
 Transform:
