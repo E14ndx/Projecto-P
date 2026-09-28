@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   Diglett_ria: {fileID: 1675293218363013004, guid: 39278a4b3a48d064789966c0024c7200, type: 3}
   Tiempodeegg: 2.2
-  seteescapa: 4.35
+  seteescapa: 4
 --- !u!4 &131702852
 Transform:
   m_ObjectHideFlags: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 1151579445}
   - component: {fileID: 1151579448}
   - component: {fileID: 1151579449}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pollo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
