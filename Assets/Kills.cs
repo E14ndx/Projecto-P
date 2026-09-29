@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Kills : MonoBehaviour
 {
     public int Killss;
@@ -13,5 +14,10 @@ public class Kills : MonoBehaviour
     {
         Killss += puntos;
         Puntaje.text = Killss.ToString();
+    }
+
+    public void Reseteo()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
